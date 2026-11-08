@@ -16,29 +16,8 @@ An Omarchy Quickshell bar widget and floating player panel providing ad-free You
 
 ## Installation & Setup
 
-### 1. Dependencies
 ```bash
-sudo pacman -S mpv yt-dlp python python-psutil pipewire
-```
-
-### 2. Install Plugin
-```bash
-mkdir -p ~/.config/omarchy/plugins
-cp -r omarchy-plugin-yt-music ~/.config/omarchy/plugins/sushantkr.yt-music
-chmod +x ~/.config/omarchy/plugins/sushantkr.yt-music/scripts/ytmusic.py
-```
-
-### 3. Add to Status Bar (`~/.config/omarchy/shell.json`)
-```json
-{
-  "id": "sushantkr.yt-music"
-}
-```
-Or via CLI: `omarchy plugin enable sushantkr.yt-music centerEnd`
-
-### 4. Reload Shell
-```bash
-omarchy restart shell
+omarchy plugin add [https://github.com/SushantKr-Me/omarchy-plugin-yt-music.git]
 ```
 
 ## License
