@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sushantkr.yt-music",
+  "name": "YouTube Music Flow",
+  "version": "1.0.0",
+  "author": "sushantkr",
+  "license": "MIT",
+  "description": "Ad-free YouTube Music player & soundwave visualizer with live search bar, instant streaming, and floating controls.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "YouTube Music",
+    "description": "Ad-free YouTube Music player with search bar and sound visualizer",
+    "category": "Media",
+    "allowMultiple": false
+  }
+}
