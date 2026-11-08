@@ -17,7 +17,7 @@ An Omarchy Quickshell bar widget and floating player panel providing ad-free You
 ## Installation & Setup
 
 ```bash
-omarchy plugin add [https://github.com/SushantKr-Me/omarchy-plugin-yt-music.git]
+omarchy plugin add https://github.com/SushantKr-Me/omarchy-plugin-yt-music.git --enable
 ```
 
 ## License
